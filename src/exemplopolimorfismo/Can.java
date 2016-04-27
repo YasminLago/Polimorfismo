@@ -15,15 +15,20 @@ public class Can extends Animal{
         super(nome);
         this.raza = raza;
     }
+    
+    public void andar(){
+        System.out.println("Anda o can");
+    }
 
     @Override
     public void falar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Guau Guau");
+            
     }
     
     @Override
     public String toString() {
-        return "Can{" + "raza=" + raza + '}';
+        return "Can: "+ "\n" +"Nome:"+getNome()+ ", Raza:" + raza;
     }
     
     

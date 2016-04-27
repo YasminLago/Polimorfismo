@@ -18,12 +18,12 @@ public class Gato extends Animal{
     
     @Override
     public void falar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Miau Miau");
     }
 
     @Override
     public String toString() {
-        return "Gato{" + "cor=" + cor + '}';
+        return "Gato:"+"\n" + "Nome:"+getNome()+", Cor:" + cor;
     }
     
     
